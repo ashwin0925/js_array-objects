@@ -2,9 +2,9 @@ var foods =["pizza","burger","sandwich"];
 var myPenguin = {
         name : "Pinto",
         canFly : false,
-        favouriteFoods: "foods",
+        frvFoods: "foods",
         firstFavFood : foods[1],
-//        lastFavFood : myPenguin.favouriteFoods[favouriteFoods.length - 1],
+//        lastFavFood : myPenguin.favouriteFoods[frvFoods.length - 1],
         sayHello : function sayHello(){
             return (`Hello, I'm a penguin and my name is ${myPenguin.penguin.name}!`);
             },
@@ -19,10 +19,10 @@ var myPenguin = {
             }
         }
       };
-console.log(myPenguin["favouriteFoods"][1]);
-// myPenguin["favouriteFoods"].push("Biscuts");
-console.log(myPenguin["favouriteFoods"].length);
+console.log(myPenguin["frvFoods"][1]);
+// myPenguin["frvFoods"].push("Biscuts");
+console.log(myPenguin["frvFoods"].length);
 
-for (i = 0; i<(myPenguin["favouriteFoods"].length);i++){
-    console.log(myPenguin["favouriteFoods"][i]);
+for (i = 0; i<(myPenguin["frvFoods"].length);i++){
+    console.log(myPenguin["frvFoods"][i]);
     }
